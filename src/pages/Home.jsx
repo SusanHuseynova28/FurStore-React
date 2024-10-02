@@ -10,7 +10,7 @@ import ProductShowcase from '../components/ProductShowCase';
 const Home = () => {
   return (
     <div>
-        <Modal />
+      <Modal />
       <FurnitureSlider />
       <ProductGrid />
       <FeaturedProducts />

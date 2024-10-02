@@ -65,7 +65,7 @@ const SideBar = ({ isOpen, toggleSidebar }) => {
 
         <div className="mt-4">
           <h4 className="text-gray-600 text-sm">LANGUAGE</h4>
-          <div className="flex items-center mt-2 p-2 border border-gray-300 rounded bg-gray-100">
+          <div className="flex items-center mt-3 p-2 border border-gray-300 rounded bg-gray-100">
             <FaGlobe className="mr-2 text-lg" />
             <select className="w-full bg-transparent focus:outline-none">
               <option>ENGLISH</option>
