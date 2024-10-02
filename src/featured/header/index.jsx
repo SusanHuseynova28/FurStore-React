@@ -34,15 +34,11 @@ const Header = () => {
           </Link>
         </nav>
 
-        {/* Icons Section */}
         <div className="flex items-center space-x-4 md:space-x-6">
-          {/* Search Icon */}
           <FaSearch className="text-gray-800 text-lg md:text-xl cursor-pointer" />
 
-          {/* User Icon */}
           <FaUser className="text-gray-800 text-lg md:text-xl cursor-pointer" />
 
-          {/* Shopping Cart Icon with notification badge */}
           <div className="relative">
             <FaShoppingCart className="text-gray-800 text-lg md:text-xl cursor-pointer" />
             <span className="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 bg-teal-600 text-white text-xs w-4 h-4 rounded-full flex items-center justify-center">
@@ -50,7 +46,6 @@ const Header = () => {
             </span>
           </div>
 
-          {/* Hamburger Menu */}
           <GiHamburgerMenu
             className="text-lg md:text-xl cursor-pointer"
             onClick={toggleSidebar}
@@ -58,7 +53,6 @@ const Header = () => {
         </div>
       </header>
 
-      {/* Sidebar */}
       <SideBar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
     </>
   );

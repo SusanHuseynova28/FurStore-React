@@ -3,7 +3,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Scrollbar, A11y } from "swiper/modules";
 import React from "react";
-import "../../styles/style.scss"; 
+import "../../styles/style.scss";
 
 const FurnitureSlider = () => {
   return (
@@ -16,7 +16,6 @@ const FurnitureSlider = () => {
         onSlideChange={() => console.log("Swiper dəyişdi")}
         onSwiper={(swiper) => console.log(swiper)}
       >
-        {/* 1-ci slayd */}
         <SwiperSlide>
           <div className="relative max-w-[1240px] mx-auto h-screen">
             <img
@@ -38,7 +37,6 @@ const FurnitureSlider = () => {
           </div>
         </SwiperSlide>
 
-        {/* 2-ci slayd */}
         <SwiperSlide>
           <div className="relative max-w-[1240px] mx-auto h-screen">
             <img
@@ -60,7 +58,6 @@ const FurnitureSlider = () => {
           </div>
         </SwiperSlide>
 
-        {/* 3-cü slayd */}
         <SwiperSlide>
           <div className="relative max-w-[1240px] mx-auto h-screen">
             <img

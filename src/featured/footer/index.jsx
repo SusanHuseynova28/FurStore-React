@@ -1,13 +1,20 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaFacebookF, FaPinterestP, FaInstagram, FaTwitter } from 'react-icons/fa';
+import React from "react";
+import { Link } from "react-router-dom";
+import {
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaFacebookF,
+  FaPinterestP,
+  FaInstagram,
+  FaTwitter,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="bg-white py-16 border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between space-y-8 md:space-y-0">
-          {/* FurStore Logo and Contact Info */}
           <div className="space-y-4">
             <img
               src="https://vinova-furstore.myshopify.com/cdn/shop/files/Logo.png?v=1694685223"
@@ -28,41 +35,107 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* About Us */}
           <div>
-            <h4 className="font-semibold text-gray-800 text-xl mt-2">About us</h4>
+            <h4 className="font-semibold text-gray-800 text-xl mt-2">
+              About us
+            </h4>
             <ul className="space-y-2 mt-8">
-              <li><Link to="#" className="text-gray-600 hover:text-teal-600 text-lg">Our story</Link></li>
-              <li><Link to="#" className="text-gray-600 hover:text-teal-600 text-lg">Our team</Link></li>
-              <li><Link to="#" className="text-gray-600 hover:text-teal-600 text-lg">Designers</Link></li>
+              <li>
+                <Link
+                  to="#"
+                  className="text-gray-600 hover:text-teal-600 text-lg"
+                >
+                  Our story
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="#"
+                  className="text-gray-600 hover:text-teal-600 text-lg"
+                >
+                  Our team
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="#"
+                  className="text-gray-600 hover:text-teal-600 text-lg"
+                >
+                  Designers
+                </Link>
+              </li>
             </ul>
           </div>
 
-          {/* Customer Service */}
           <div>
-            <h4 className="font-semibold text-gray-800 mt-2">Customer service</h4>
+            <h4 className="font-semibold text-gray-800 mt-2">
+              Customer service
+            </h4>
             <ul className="space-y-2 mt-8">
-              <li><Link to="#" className="text-gray-600 hover:text-teal-600 text-lg">Home</Link></li>
-              <li><Link to="#" className="text-gray-600 hover:text-teal-600 text-lg">Products</Link></li>
-              <li><Link to="#" className="text-gray-600 hover:text-teal-600 text-lg">Contacts</Link></li>
+              <li>
+                <Link
+                  to="#"
+                  className="text-gray-600 hover:text-teal-600 text-lg"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="#"
+                  className="text-gray-600 hover:text-teal-600 text-lg"
+                >
+                  Products
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="#"
+                  className="text-gray-600 hover:text-teal-600 text-lg"
+                >
+                  Contacts
+                </Link>
+              </li>
             </ul>
           </div>
 
-          {/* Support */}
           <div>
             <h4 className="font-semibold text-gray-800 mt-2">Support</h4>
             <ul className="space-y-2 mt-8">
-              <li><Link to="#" className="text-gray-600 hover:text-teal-600 text-lg">FAQ's</Link></li>
-              <li><Link to="#" className="text-gray-600 hover:text-teal-600 text-lg">Shipping</Link></li>
-              <li><Link to="#" className="text-gray-600 hover:text-teal-600 text-lg">Return</Link></li>
+              <li>
+                <Link
+                  to="#"
+                  className="text-gray-600 hover:text-teal-600 text-lg"
+                >
+                  FAQ's
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="#"
+                  className="text-gray-600 hover:text-teal-600 text-lg"
+                >
+                  Shipping
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="#"
+                  className="text-gray-600 hover:text-teal-600 text-lg"
+                >
+                  Return
+                </Link>
+              </li>
             </ul>
           </div>
 
-          {/* Payments and Social */}
           <div>
             <h4 className="font-semibold text-gray-800 mt-2">Payments</h4>
             <div className="flex space-x-4 mt-2">
-              <img src="https://vinova-furstore.myshopify.com/cdn/shop/files/img-2-7_250x.png?v=1696490455" alt="Payment Methods" />
+              <img
+                src="https://vinova-furstore.myshopify.com/cdn/shop/files/img-2-7_250x.png?v=1696490455"
+                alt="Payment Methods"
+              />
             </div>
 
             <h4 className="font-semibold text-gray-800 mt-6">Follow Us</h4>
@@ -76,7 +149,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Footer Bottom */}
       <div className="mt-10 text-center text-sm text-gray-500">
         Copyright © 2023 Vinovathemes. All Rights Reserved.
       </div>

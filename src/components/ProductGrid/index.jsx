@@ -1,22 +1,25 @@
-import React from 'react';
+import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
 
 const ProductGrid = () => {
   const products = [
     {
       id: 1,
-      name: 'Pillow',
-      image: 'https://vinova-furstore.myshopify.com/cdn/shop/files/img-9-1_768x.jpg?v=1703662419',
+      name: "Pillow",
+      image:
+        "https://vinova-furstore.myshopify.com/cdn/shop/files/img-9-1_768x.jpg?v=1703662419",
     },
     {
       id: 2,
-      name: 'Armchair',
-      image: 'https://vinova-furstore.myshopify.com/cdn/shop/files/img-9-2_768x.jpg?v=1703662419',
+      name: "Armchair",
+      image:
+        "https://vinova-furstore.myshopify.com/cdn/shop/files/img-9-2_768x.jpg?v=1703662419",
     },
     {
       id: 3,
-      name: 'Side Table',
-      image: 'https://vinova-furstore.myshopify.com/cdn/shop/files/img-9-3_768x.jpg?v=1703662759',
+      name: "Side Table",
+      image:
+        "https://vinova-furstore.myshopify.com/cdn/shop/files/img-9-3_768x.jpg?v=1703662759",
     },
   ];
 
@@ -35,7 +38,9 @@ const ProductGrid = () => {
             </div>
             <div className="absolute bottom-4 right-4">
               <button className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:text-white hover:bg-[#0a5d5d]">
-                <span className="text-xl"><FaArrowRight /></span>
+                <span className="text-xl">
+                  <FaArrowRight />
+                </span>
               </button>
             </div>
           </div>
