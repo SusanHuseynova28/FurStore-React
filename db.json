@@ -1,0 +1,70 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Diamond Halo Stud Cum",
+        "price": "$628.00",
+        "rating": 4,
+        "image": "https://vinova-furstore.myshopify.com/cdn/shop/products/32_1120x.jpg?v=1694678290",
+        "hoverImage": "https://vinova-furstore.myshopify.com/cdn/shop/products/32a_1120x.jpg?v=1694678290"
+      },
+      {
+        "id": 2,
+        "name": "Diamond Halo Stud Sociis",
+        "price": "$200.00",
+        "rating": 4,
+        "image": "https://vinova-furstore.myshopify.com/cdn/shop/products/21_1120x.jpg?v=1694678180",
+        "hoverImage": "https://vinova-furstore.myshopify.com/cdn/shop/products/21a_1024x.jpg?v=1694678180"
+      },
+      {
+        "id": 3,
+        "name": "Diamond Halo Stud Quis",
+        "price": "$736.00",
+        "rating": 4,
+        "image": "https://vinova-furstore.myshopify.com/cdn/shop/products/18_1120x.jpg?v=1694678145",
+        "hoverImage": "https://vinova-furstore.myshopify.com/cdn/shop/products/18a_1120x.jpg?v=1694678145"
+      },
+      {
+        "id": 4,
+        "name": "Diamond Halo Stud Magnis",
+        "price": "$325.00",
+        "discountedPrice": "$418.00",
+        "rating": 5,
+        "image": "https://vinova-furstore.myshopify.com/cdn/shop/products/12_1120x.jpg?v=1694678190",
+        "hoverImage": "https://vinova-furstore.myshopify.com/cdn/shop/products/12a_1120x.jpg?v=1694678190"
+      },
+      {
+        "id": 5,
+        "name": "Luxury Sofa Primis",
+        "price": "$899.00",
+        "rating": 5,
+        "image": "https://vinova-furstore.myshopify.com/cdn/shop/products/13_1120x.jpg?v=1694678199",
+        "hoverImage": "https://vinova-furstore.myshopify.com/cdn/shop/products/13b_1120x.jpg?v=1695803456"
+      },
+      {
+        "id": 6,
+        "name": "Vintage Chair Sole",
+        "price": "$450.00",
+        "rating": 3,
+        "image": "https://vinova-furstore.myshopify.com/cdn/shop/products/15_1120x.jpg?v=1694678110",
+        "hoverImage": "https://vinova-furstore.myshopify.com/cdn/shop/products/15a_1120x.jpg?v=1695803744"
+      },
+      {
+        "id": 7,
+        "name": "Modern Seat Luna",
+        "price": "$720.00",
+        "rating": 4,
+        "image": "https://vinova-furstore.myshopify.com/cdn/shop/products/1_c2307dbf-d624-4bcd-b3de-99a7963f7496_1120x.jpg?v=1694678001",
+        "hoverImage": "https://vinova-furstore.myshopify.com/cdn/shop/products/1a_72f2474e-7e99-45e6-96e5-ddda5fc59906_1120x.jpg?v=1694678001"
+      },
+      {
+        "id": 8,
+        "name": "Comfort Lounge Maximus",
+        "price": "$560.00",
+        "rating": 5,
+        "image": "https://vinova-furstore.myshopify.com/cdn/shop/products/34_1120x.jpg?v=1694677982",
+        "hoverImage": "https://vinova-furstore.myshopify.com/cdn/shop/products/34a_1120x.jpg?v=1694677982"
+      }
+    ]
+  }
+  

@@ -1,0 +1,61 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@tanstack/react-query": "^5.59.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.7",
+    "json-server": "^1.0.0-beta.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "^5.0.1",
+    "swiper": "^11.1.14",
+    "swr": "^2.2.5",
+    "web-vitals": "^2.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "json-server  db.json --watch  --port 3001"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-env": "^7.25.4",
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "postcss": "^8.4.47",
+    "sass": "^1.79.4",
+    "sass-loader": "^16.0.2",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^3.4.13"
+  }
+}
